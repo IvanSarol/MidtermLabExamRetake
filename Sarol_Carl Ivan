@@ -41,7 +41,7 @@ class _ExampleStaggeredAnimationsState extends State<ExampleStaggeredAnimations>
 
   // 10. Override the initState method, which is called when the widget is inserted into the tree
   @override
-  void main () {
+  void initState () {
     // Call the superclass's initState method
     super.initState();
 
