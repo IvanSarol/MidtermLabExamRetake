@@ -392,13 +392,13 @@ List<Widget> _buildListItems() {
           // 34.Return an Opacity widget
           return Opacity(
             // 35. Set the opacity of the Opacity widget
-            opacity: 0,
+            opacity: opacity,
             // 36. Set the child of the Opacity widget to a Transform widget
             child: Transform.translate(
               // Set the offset of the Transform widget
               offset: Offset(slideDistance, 0),
               // 37. Set the child of the Transform widget
-              child: widget,
+              child: child,
             ),
           );
         },
